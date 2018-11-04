@@ -1,5 +1,3 @@
-module.exports = clipboardCopy
-
 function clipboardCopy (text) {
   // Use the Async Clipboard API when available
   if (navigator.clipboard) {
